@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rizky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Portofolio</a>
+            <div class="toggle"></div>
+        </header>
+
+        <img src="man.png" class="men" alt="">
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello,</h4>
+                <h2>I'm Rizky</h2>
+                <h3>Professional Web Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cupiditate ipsam expedita magnam, dolorem commodi aut at necessitatibus minus non sequi maiores quibusdam. Nobis dignissimos odit fugit assumenda natus itaque.</p>
+                <a href="#">Hire Me</a>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
